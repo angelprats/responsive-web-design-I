@@ -235,6 +235,7 @@ button {
 
 .middle-img {
   margin-top: 69px;
+  width: 100%;
 }
 
 .bottom {
@@ -341,3 +342,80 @@ footer {
 .end .end-content li {
   margin-bottom: 15px;
 }
+
+
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .cover img {
+    display: none;
+  }
+   .cover-content {
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+
+  .top-content {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  img .middle-image {
+    width: 100%;
+  }
+  
+
+  .logo {
+    width: 200px; 
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+  .container {
+    background: mediumpurple;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+/* .main-content {
+  display: flex;
+    flex-direction: row;
+
+} */
+  /* .top-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } */
+
+  /* .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
